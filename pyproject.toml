@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "beginner-fine-tuning-mlx"
+version = "0.0.1"
+description = "A friendly guide to local finetuning with a Mac (MLX)"
+authors = ["Matt Carey <matt@stackone.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mlx = "^0.9.1"
+mlx-lm = "^0.8.0"
+transformers = "^4.39.3"
+numpy = "^1.26.4"
+huggingface-hub = "^0.22.2"
+hf-transfer = "^0.1.6"
+torch = "^2.2.2"
+datasets = "^2.18.0"
+sentencepiece = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
